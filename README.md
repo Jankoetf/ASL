@@ -1,12 +1,10 @@
-# ASL
+# ASL - American Sign Language
 Neural_Networks_Digital_Image_Processing
 
-https://colab.research.google.com/drive/13KtkvlcsXIj1zDMWkQgRNqIbdmkGK5-D?usp=sharing
-
 ## General
- - I have pictures of sign language, and after creating simple neural network model for classification we have accuracy about 75%
+ - I have pictures of sign language, and after creating simple neural network model for classification we have accuracy about 70%
 
-<img src="Pictures/No_filters.PNG" alt="Alt Text" width="300" height="256"><img src="Pictures/2_3_channels.PNG" alt="Alt Text" width="150" height="256">
+<img src="Pictures/no_filters.PNG" alt="Alt Text" width="300" height="256"><img src="Pictures/2_3_channels.PNG" alt="Alt Text" width="150" height="256">
 
 - Next I tried separating RGB channels from images hoping for better accuracy on some channel alone, but after building again my confusion matrix, I saw thats not the case
 <img src="Pictures/Chanels.PNG" alt="Alt Text" width="300" height="256">
