@@ -4,12 +4,13 @@ Neural_Networks_Digital_Image_Processing
 ## General
  - I have pictures of sign language, and after creating simple neural network model for classification we have accuracy about 70%
 
-<img src="Pictures/no_filter.PNG" alt="Alt Text" width="300" height="256"><img src="Pictures/2_3_channels.PNG" alt="Alt Text" width="150" height="256">
+<img src="Pictures/no_filter.PNG" alt="Alt Text" width="342" height="378">
 
-- Next I tried separating RGB channels from images hoping for better accuracy on some channel alone, but after building again my confusion matrix, I saw thats not the case
-<img src="Pictures/Chanels.PNG" alt="Alt Text" width="300" height="256">
+Look of pictures at the beggining, these images are RGB
 
-- Because of that, and because there is no difference in accuracy between 3D channel image and 2D channel image I proceded with 2D channel image preprocesing
+<img src="Pictures/start1.PNG" alt="Alt Text" width="512" height="256">
+
+- From now on Im working with images loaded with single channel - in order to apply digital image preprocessing
 
 - Next I experimented with different combinations of filters and try them to see if there is any improvement, and slowly there was a progress
   
