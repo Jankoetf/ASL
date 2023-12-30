@@ -49,7 +49,7 @@ What I found is that filters that do adaptive thresholding on blured image, work
 With this aproach I imroved generalization of model, in the end of process I get accuracy around 80%.
 
 
-<img src="Pictures/combination.PNG" alt="Alt Text" width="342" height="378">
+<img src="Pictures/last.PNG" alt="Alt Text" width="342" height="378">
 
 
 
