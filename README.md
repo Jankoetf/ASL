@@ -1,5 +1,15 @@
-# ASL - American Sign Language
-Neural_Networks_Digital_Image_Processing
+# ASL - American Sign Language Classification
+
+Im working on classification of 5 signs: 'V', 'Y', 'X', 'Y', 'Z'. Initially dataset pictures look like this:
+
+<img src="Pictures/signs1.PNG" alt="Alt Text" width="512" height="256">
+
+So pictures are RGB and size of 200*200.
+
+If I just make and train a classification model I get accuracy around 70%.
+
+
+
 
 ## General
  - I have pictures of sign language, and after creating simple neural network model for classification we have accuracy about 70%
