@@ -34,6 +34,7 @@ Here are examples of filtered images:
 - Using adaptive tresholding on Gaussian and Median Blur
 <img src="Pictures/c4.PNG" alt="Alt Text" width="512" height="256">
 
+
 ## Fitting Sections
 When I just preproces whole train and test set with one of these filters and fit model, I dont get much of improvement.
 My strategy is:
@@ -51,6 +52,5 @@ With this aproach I imroved generalization of model, in the end of process I get
 
 <img src="Pictures/last.PNG" alt="Alt Text" width="342" height="378">
 
-
-
-
+## **Thank you for exploring my project!** 
+If you'd like to learn more about my background and qualifications, please visit my [LinkedIn profile](https://www.linkedin.com/in/jankomitrovic)
