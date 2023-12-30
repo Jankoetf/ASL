@@ -22,17 +22,34 @@ If I just make and train a classification model I get accuracy around 70%(Pictur
 3. Thresholding
 
 Here are examples of filtered images:
+- Manual sharpen and edge detection masks
+<img src="Pictures/c1.PNG" alt="Alt Text" width="512" height="256">
 
-  
-<img src="Pictures/post_adaptive.PNG" alt="Alt Text" width="582" height="256">
+- Canny filter + thresholding
+<img src="Pictures/c2.PNG" alt="Alt Text" width="512" height="256">
 
-<img src="Pictures/adaptive_results.PNG" alt="Alt Text" width="342" height="378">
+- Sobel filter + thresholding
+<img src="Pictures/c3.PNG" alt="Alt Text" width="512" height="256">
 
-- Next I created model and fited it again and again with differenty preprocesed dataset
+- Using adaptive tresholding on Gaussian and Median Blur
+<img src="Pictures/c4.PNG" alt="Alt Text" width="512" height="256">
+
+## Fitting Sections
+When I just preproces whole train and test set with one of these filters and fit model, I dont get much of improvement.
+My strategy is:
+1. Loading whole train set
+2. Preprocessing it with one of best filter
+3. Creating a model
+4. Train the model for 10 epochs
+5. Preprocessing whole train set again using different filter
+6. Training an already trained model for 3 or 5 more epochs
+7. Repeat 5. 6. several times
+
+What I found is that filters that do adaptive thresholding on blured image, works the best in combination.
+With this aproach I imroved generalization of model, in the end of process I get accuracy around 80%.
+
 
 <img src="Pictures/combination.PNG" alt="Alt Text" width="342" height="378">
-
-- After some time I couldnt raise accuracy any more, with 2 median and one addaptive gaussian filter I found accuracy of 81% on test set
 
 
 
