@@ -16,9 +16,12 @@ If I just make and train a classification model I get accuracy around 70%(Pictur
 
 
 ## Filtering Sections
+- Next I experimented with different digital image preprocessing filters in order to get that edge detection, in most cases order of operation is
+1. Bluring
+2. Edge detection
+3. Thresholding
 
-Next I experimented with different digital image preprocessing techniques, in most cases order of filters is:
-- 
+Here are examples of filtered images:
 
   
 <img src="Pictures/post_adaptive.PNG" alt="Alt Text" width="582" height="256">
