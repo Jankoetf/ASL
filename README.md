@@ -1,30 +1,25 @@
 # ASL - American Sign Language Classification
-
-Im working on classification of 5 signs: 'V', 'Y', 'X', 'Y', 'Z'. Initially dataset pictures look like this:
+ - Im working on classification of 5 signs: 'V', 'Y', 'X', 'Y', 'Z'. Initially dataset pictures look like this:
 
 <img src="Pictures/signs1.PNG" alt="Alt Text" width="512" height="256">
 
-So pictures are RGB and size of 200*200.
+- Pictures are RGB and 200*200 in size.
 
-If I just make and train a classification model I get accuracy around 70%.
+If I just make and train a classification model I get accuracy around 70%(Pictures are already augmented).
 
+<img src="Pictures/start_pred.PNG" alt="Alt Text" width="342" height="378">
 
-
-
-## General
- - I have pictures of sign language, and after creating simple neural network model for classification we have accuracy about 70%
-
-<img src="Pictures/no_filter.PNG" alt="Alt Text" width="342" height="378">
-
-Look of pictures at the beggining, these images are RGB
-
-<img src="Pictures/start1.PNG" alt="Alt Text" width="612" height="256">
-
-- From now on Im working with images loaded with single channel - in order to apply digital image preprocessing
+- Before filtering, datasets are resized to 64*64 and loaded as 1 channel images(grayscale).
 
 <img src="Pictures/start2.PNG" alt="Alt Text" width="512" height="256">
 
-- Next I experimented with different combinations of filters and try them to see if there is any improvement in accuracy, and slowly there was a progress
+
+
+## Filtering Sections
+
+Next I experimented with different digital image preprocessing techniques, in most cases order of filters is:
+- 
+
   
 <img src="Pictures/post_adaptive.PNG" alt="Alt Text" width="582" height="256">
 
